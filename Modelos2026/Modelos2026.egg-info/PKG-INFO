@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Modelos2026
+Version: 1.0.0
+Summary: Paquete de modelos para alumnos de administración
+Author: Tu Nombre
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib

@@ -1,0 +1,9 @@
+setup.py
+Modelos2026/MCDM.py
+Modelos2026/__init__.py
+Modelos2026/normalizador.py
+Modelos2026.egg-info/PKG-INFO
+Modelos2026.egg-info/SOURCES.txt
+Modelos2026.egg-info/dependency_links.txt
+Modelos2026.egg-info/requires.txt
+Modelos2026.egg-info/top_level.txt
