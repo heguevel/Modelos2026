@@ -16,6 +16,7 @@ setup(
     install_requires=[
         "pandas", 
         "numpy", 
-        "matplotlib"
+        "matplotlib",
+        "xlsxwriter"
     ], # Librerías que el alumno necesita tener
 )
