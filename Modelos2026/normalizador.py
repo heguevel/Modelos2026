@@ -126,7 +126,7 @@ class ModelosNormalizacion:
             color_puntos = 'navy'
             # Eje X = Valor Original, Eje Y = Puntaje Normalizado
             plt.scatter(x_data, y_data, s=150, c=color_puntos, alpha=0.6, edgecolors='black', zorder=3)
-            plt.xlabel(f"Valor Original)", fontsize=10)
+            plt.xlabel(f"Valor Original", fontsize=10)
             plt.ylabel("Valor Normalizado", fontsize=10)
         
         # Anotaciones
