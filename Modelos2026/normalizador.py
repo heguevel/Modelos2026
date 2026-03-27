@@ -79,12 +79,12 @@ class ModelosNormalizacion:
         df_p = self._aplicar_reciproca(df, minimo)
         
         metodos = {
-            'Fraccion Rango': (df_p[cols_num] - df_p[cols_num].min()) / (df_p[cols_num].max() - df_p[cols_num].min() + 1e-9),
-            'Fraccion Suma': df_p[cols_num] / (df_p[cols_num].sum() + 1e-9),
-            'Fraccion Maximo': df_p[cols_num] / (df_p[cols_num].max() + 1e-9),
-            'Fraccion Modulo': df_p[cols_num] / np.sqrt((df_p[cols_num]**2).sum() + 1e-9),
+            'Fracción Rango': (df_p[cols_num] - df_p[cols_num].min()) / (df_p[cols_num].max() - df_p[cols_num].min() + 1e-9),
+            'Fracción Suma': df_p[cols_num] / (df_p[cols_num].sum() + 1e-9),
+            'Fracción Máximo': df_p[cols_num] / (df_p[cols_num].max() + 1e-9),
+            'Fracción Módulo': df_p[cols_num] / np.sqrt((df_p[cols_num]**2).sum() + 1e-9),
             'Z-Score': (df_p[cols_num] - df_p[cols_num].mean()) / (df_p[cols_num].std() + 1e-9),
-            'Categorica': self.normalizacion_oecd_pro(df_p, cols_num, n_intervalos=n_intervalos_oecd),
+            'Categórica': self.normalizacion_oecd_pro(df_p, cols_num, n_intervalos=n_intervalos_oecd),
             'Ideal de Referencia': self.normalizacion_rim_pro(df[cols_num], cols_num, metas_rim)
         }
         return metodos
